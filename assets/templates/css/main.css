@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Roboto-Light; /* Имя шрифта */
+    src: url(fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+}
+*{
+
+	font-family: Roboto-Light;
+}
+/*header*/
+.nav-primary{
+	background: #006DAE;
+	border: #006DAE;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#nbar > ul > li > a{
+	color: #E0E0E0;
+}
+#nbar > ul > li > a:hover{
+	color: #ffffff;
+	background: none;
+}
+#nbar > ul > li > a:focus{
+	color: #ffffff;
+	background: none;
+}
+ul{
+	list-style-type: none;
+	text-align: justify;
+}
+
+.material-icons{
+	position: absolute;
+	margin-left: -30px;
+	margin-top: -3px;
+}
